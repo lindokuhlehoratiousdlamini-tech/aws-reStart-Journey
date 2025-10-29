@@ -16,7 +16,14 @@ By the end of the programme, learners will:
 - Be able to deploy simple cloud-based solutions and troubleshoot basic issues
 - Have completed practical projects and a capstone portfolio piece
 - Be prepared for entry-level cloud roles (cloud support, junior sysadmin, junior DevOps, cloud operations)
-- Be ready to take the AWS Certified Cloud Practitioner exam (optional/encouraged) 
+- Be ready to take the AWS Certified Cloud Practitioner exam (optional/encouraged)
+
+  ## What I have Learned
+  - Lab Challanges: Hands-on exercise or projects that tests your skills in a practical setting
+  - Project Gallery: A collection of projects showcasing your work, possibly for assessments or portfolio-building purposes.
+  - Learning Roadmap: A visual representation of the skills or knowledge you can aim to acquire, often with millestones and deadlines.
+  - About Me: A section for personal introduction, sharing background, interest or career goals.
+  - Weekly Notes: Summarieses or reflections on the material covered each week,useful for review and study purposes.
 
 
 
