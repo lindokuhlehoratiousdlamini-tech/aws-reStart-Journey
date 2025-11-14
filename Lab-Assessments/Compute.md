@@ -1,18 +1,21 @@
 # Compute Lab: EC2 Launch
+
 ## Objectives
-This lab is about launching, resizing, managing and monitoring an Amazon EC2 instance on AWS
+This lab is about launching, resizing, managing, and monitoring an Amazon EC2 instance on AWS.
 
 ## Tasks
-- Launching EC2 instance - I created a new EC2 instance named Web Server. I chose Amazon Linux 2 AMI and t3.micro instance type.
-- Monitor your instance - I checked CPU usage and system status in the EC2 Mointoring tab to make sure the instance was running correctly.
-- Update security group and access the web server - I added an inbound rule for HTTP (port 80) from anywhere so I could acceess the web server
-- Resize instance and EBS volume - I stopped the instance, changed the type to t3.small and I increased the volume from 8 GB to 10 GB
-- Test termination protection - I turned on the termination protection, tried to delete the instance and confirmed AWS blocked the action until i disabled it.
+- 🚀 **Launching EC2 Instance:** I created a new EC2 instance named Web Server. I chose Amazon Linux 2 AMI and t3.micro instance type.
+- 📊 **Monitor Your Instance:** I checked CPU usage and system status in the EC2 Monitoring tab to make sure the instance was running correctly.
+- 🌐 **Update Security Group and Access the Web Server:** I added an inbound rule for HTTP (port 80) from anywhere so I could access the web server.
+- 📦 **Resize Instance and EBS Volume:** I stopped the instance, changed the type to t3.small, and increased the volume from 8 GB to 10 GB.
+- 🛡️ **Test Termination Protection:** I enabled termination protection, tried to delete the instance, and confirmed AWS blocked the action until I disabled it.
+
 ## Challenges
-- I did not face any challenges during this lab, everything was straight forward.
+- 😎 I did not face any challenges during this lab; everything was straightforward.
+
 ## Takeaways
-- Make sure your security group has the correct inbound rules
-- Enable the termiantion protection to avoid accidentally deleting instances
+- 🔑 Make sure your security group has the correct inbound rules.
+- ✅ Enable termination protection to avoid accidentally deleting instances.
 ## Screenshots
 - <img width="1366" height="728" alt="1" src="https://github.com/user-attachments/assets/145747d1-a842-48e9-96c0-33cc47b5843b" />
 
