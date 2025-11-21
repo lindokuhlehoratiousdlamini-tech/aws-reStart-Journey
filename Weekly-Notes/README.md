@@ -2,20 +2,20 @@
 
 Welcome to my weekly notes for the AWS re/Start programme! Here I'll document my learning journey, reflections, and hands-on experiences. Let's get cloud-ready! ☁️✨
 
+# 🌱 Week 1 — Introduction & Foundations (My Learning Summary)
 
-## Week 1: Introduction & Foundations 🌱
+In the first week of the AWS re/Start programme, I focused on building the essential foundations needed to understand computers, operating systems, and the cloud. This was my starting point, and even though the concepts were basic, they were important for everything I will learn later in the programme.
 
-- **Introduction to AWS re/Start**
-  - Met the cohort and instructors 🤝
-  - Discussed programme structure, goals, and expectations 📋
-- **Setting Up**
-  - Set up learning environment and accounts 🖥️
-  - Joined Slack/Teams channels for collaboration 💬
-- **Digital Fundamentals**
-  - Explored computer basics, OS concepts, and file systems 🗂️
-  - Practiced basic terminal commands ⌨️
+I began by meeting my instructors and fellow learners, and I learned how the programme is structured and what the long-term goals are. This helped me understand the journey ahead and what skills I’m expected to develop by the end. I also set up my learning environment, which included preparing my computer, creating accounts, and joining collaboration platforms like Slack/Teams so I can communicate and work with others throughout the course.
 
-## Week 2: Cloud Concepts & AWS Introduction ☁️🧑💻
+A major focus of Week 1 was:
+- **digital and computer fundamentals**. I learned how operating systems work, what file systems are, and how computers organise data internally. Understanding these basics helped me see what’s happening “behind the scenes” on a computer and why certain actions matter. This foundational knowledge is especially important in cloud computing, where server management and system behaviour are part of everyday tasks.
+
+One of the biggest skills I developed this week was using the:
+- **Linux command line**. I practiced essential terminal commands such as navigating directories, listing files, creating folders, and understanding how the Linux file system is structured. At first, typing commands felt unfamiliar, but I quickly learned how powerful and efficient the terminal is. Because cloud servers often do not have a graphical interface, becoming comfortable with the command line is a crucial step toward working confidently in AWS later on.
+
+Overall, Week 1 gave me a strong start. I built confidence with computers, learned how to use the terminal, and prepared my environment for the hands-on cloud training that comes later. Even though these were introductory skills, they form the foundation for everything else I will do in the cloud — from managing servers to automating tasks and deploying applications. This week set the groundwork for my entire cloud learning journey.
+
 
 - **Cloud Computing**
   - Explored the basics of cloud computing and deployment models 🏗️
