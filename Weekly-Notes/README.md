@@ -79,7 +79,16 @@ By the end of the week, I gained a deeper understanding of how essential data is
 
 ## Week 6: Networking & Content Delivery 🌐🚚
 
-In Week 6 of the AWS re/Start programme, was all about learning how to protect information and manage things better in the cloud. At first, I was nervous because terms like "encryption" and "monitoring" sounded so technical, but as the days went on, things started making more sense.
+This week, I learned about how content like websites, videos, apps, and files are delivered to users over the internet quickly, securely, and reliably. The topic was Content Delivery and Networking, and at first, I didn’t fully understand why it mattered so much. But as the week went on, I began to realize just how important it is for any company or website that wants to serve users all around the world without delays or interruptions. In simple terms, the goal is to make sure that when someone clicks a website or opens an app, it loads fast—no matter where they are.
+
+## Learnt about the following:
+- **Amazon CloudFront**, which is a content delivery network (CDN). What that means is that it has servers all over the world, and instead of your content always coming from one central place, CloudFront delivers it from the closest location to the user. For example, if a website is based in South Africa, but someone in the U.S. wants to view it, CloudFront will serve the content from a nearby U.S. location instead of sending the request all the way to South Africa. This helps websites load faster and reduces internet traffic issues. It also helps protect websites against attacks and high traffic that could cause slowdowns.
+- **Amazon Route 53** which is a scalable Domain Name System (DNS) web service. I learned that DNS works like a phone book for the internet. When someone types in a website like “www.example.com,” Route 53 helps find the right server that hosts that website. Without DNS, people would need to type in complicated IP addresses instead of simple website names. Route 53 also helps make sure that if one server goes down, the traffic is rerouted to another healthy one. This helps improve uptime and keeps services available at all times.
+
+These services ensure that users across the globe can access websites, videos, or applications quickly, securely, and reliably. Even without a technical background, it’s easy to see the value: AWS helps businesses improve performance, reduce loading times, and stay available 24/7 — no matter where their customers are. This week gave us a solid foundation for understanding how modern websites and applications reach users efficiently through the cloud.
+
+## Week 7: AWS Security Services & Best Practices 🛡️🔒
+In Week 7 of the AWS re/Start programme, was all about learning how to protect information and manage things better in the cloud. At first, I was nervous because terms like "encryption" and "monitoring" sounded so technical, but as the days went on, things started making more sense.
 
 ## Learnt about the following:
 - One of the first tools we explored was **AWS KMS**, which stands for Key Management Service. I learned that it helps to lock and unlock important information using something like a secret password (called a key). Just like I wouldn’t leave my house without locking the door, companies use KMS to lock up data, and only people with the right “key” can open it. It made me realize how important encryption is, especially when working with sensitive information like customer details.
@@ -87,7 +96,7 @@ This week was all about **networks**—the invisible systems that allow devices 
 - Then we moved on to **AWS CloudTrail**, which was like the CCTV of everything that happens in AWS. I now understand that every time someone makes a change—like deleting a file or creating a new server—it gets recorded. This helps companies track who did what, and when. I thought that was really smart because it keeps everyone accountable. Along with that, we used AWS Config, which is like having a daily report that shows if something in your environment has changed. For example, if a storage bucket was set to private and someone made it public, AWS Config would pick that up. I now appreciate how this helps organizations stay secure and make sure no one makes risky changes by accident.
 - We also worked with **Amazon CloudWatch**, which helps you monitor how things are running in AWS—like whether a server is working too hard or if something has crashed. I didn’t know it was possible to be alerted automatically if something went wrong, but now I understand how helpful that is, especially when managing multiple applications. AWS Systems Manager was another cool tool. It lets you manage your computers (or instances, in cloud language) without having to log into each one. I thought that was powerful because you could update, fix, or control them all from one place.
 
-Overall, Week 6 helped me see that cloud security isn’t just for experts—it’s about using the right tools and following smart practices. Even with no IT background, I started understanding how businesses keep their information safe and manage their cloud setups properly. I now feel more confident in learning and applying these tools, knowing they’re there to make cloud work more secure, organized, and easier to manage.
+Overall, Week 7 helped me see that cloud security isn’t just for experts—it’s about using the right tools and following smart practices. Even with no IT background, I started understanding how businesses keep their information safe and manage their cloud setups properly. I now feel more confident in learning and applying these tools, knowing they’re there to make cloud work more secure, organized, and easier to manage.
 
 **Key Points:**
 
@@ -98,12 +107,3 @@ Overall, Week 6 helped me see that cloud security isn’t just for experts—it�
 * AWS VPC: my private cloud network
 * Route Tables and Security Groups control traffic and security
 
-
-
-## Week 7: AWS Security Services & Best Practices 🛡️🔒
-
-- **Security Fundamentals**
-  - Learned IAM (Identity & Access Management) users, groups, and policies 🧑💼
-  - Explored Multi-Factor Authentication (MFA) 🔑
-  - Worked with AWS security services (KMS, GuardDuty, CloudTrail, Inspector) 👮
-  - Reviewed AWS shared responsibility model and best practices 📚
