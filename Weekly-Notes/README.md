@@ -16,11 +16,21 @@ One of the biggest skills I developed this week was using the:
 
 Overall, Week 1 gave me a strong start. I built confidence with computers, learned how to use the terminal, and prepared my environment for the hands-on cloud training that comes later. Even though these were introductory skills, they form the foundation for everything else I will do in the cloud — from managing servers to automating tasks and deploying applications. This week set the groundwork for my entire cloud learning journey.
 
+# ☁️ Week 2 — Cloud Concepts & AWS Introduction (My Learning Summary)
 
-- **Cloud Computing**
-  - Explored the basics of cloud computing and deployment models 🏗️
-- **AWS Global Infrastructure**
-  - Learned about regions, availability zones, and data centers 🌍
+In Week 2 of the AWS re/Start programme, I moved from basic computer fundamentals into understanding what **cloud computing** actually is and why it matters in the modern world. This week helped me build a clear picture of how the cloud works, how AWS fits into it, and why businesses rely on these technologies.
+
+I began by learning the core idea behind cloud computing: instead of companies buying and maintaining their own physical computers and servers, they can rent computing power, storage, and services over the internet. This simple concept is the foundation of the entire cloud industry. I explored key cloud models — public, private, and hybrid — and learned how each one is used depending on a company’s needs. This helped me understand that the cloud is flexible and can support both small startups and large enterprises with different requirements.
+
+I also learned about the **AWS global infrastructure**, which includes:
+- Regions
+- Availability Zones
+- data centers located all around the world.
+AWS divides its global network in a way that helps customers build applications that are fast, secure, and reliable. A “Region” is a specific geographic location, and inside each Region are multiple “Availability Zones,” which are separate data centers designed for high availability. Understanding this structure helped me see how AWS provides resilience: if something fails in one location, the system can continue working from another.
+
+Another important part of Week 2 was learning why companies move to the cloud. I explored the benefits of cloud computing, such as reduced costs, faster deployment, easier scaling, and improved reliability. Instead of waiting days or weeks to set up physical hardware, the cloud allows resources to be created in minutes. This efficiency is a major reason cloud skills are in high demand.
+
+By the end of the week, I could clearly explain what the cloud is, how AWS is built, and why organisations trust cloud services to run their applications. Week 2 gave me the conceptual foundation I need for the more hands-on AWS work that comes later in the programme. It helped me shift my mindset from thinking of computers as physical machines to seeing them as flexible, on-demand, internet-based resources — which is the core of modern cloud computing.
  
 ## Week 3: AWS Core Services 🛠️
 
