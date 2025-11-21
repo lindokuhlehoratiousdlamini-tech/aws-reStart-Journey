@@ -107,3 +107,23 @@ Overall, Week 7 helped me see that cloud security isn’t just for experts—it�
 * AWS VPC: my private cloud network
 * Route Tables and Security Groups control traffic and security
 
+------------------------------------------------------------
+Resources & further learning
+------------------------------------------------------------
+AWS official
+- AWS Free Tier: https://aws.amazon.com/free
+- AWS Documentation (search by service): https://docs.aws.amazon.com
+- AWS Training & Certification: https://www.aws.training
+
+Free & community
+- AWS re/Start curriculum links (provided by training program)
+- Linux command line tutorials (e.g., The Linux Command Line by William Shotts)
+- AWS workshops and hands-on labs (search “AWS workshop” + service name)
+
+Books & videos
+- AWS Whitepapers (for architecture and best practices)
+- YouTube: official AWS channel and community walkthroughs
+------------------------------------------------------------
+Final notes
+These notes are a living document — I will continue to update them as I practice, learn new topics, and build projects. The next steps I'm planning are: consolidate hands-on labs into mini-projects, add screenshots or terminal logs for important steps, and keep a running list of mistakes and how I fixed them (my personal debugging cookbook).
+Happy learning — keep experimenting and building!
