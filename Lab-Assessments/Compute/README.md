@@ -1,8 +1,7 @@
 # Compute Lab: EC2 Launch
 
 ## Objectives
-This lab is about launching, resizing, managing, and monitoring an Amazon EC2 instance on AWS.
-
+The AWS re/Start programme is a beginner-friendly training that teaches people how modern computers, networks, and cloud services work. 
 ## Tasks
 - 🚀 **Launching EC2 Instance:** I created a new EC2 instance named Web Server. I chose Amazon Linux 2 AMI and t3.micro instance type.
 - 📊 **Monitor Your Instance:** I checked CPU usage and system status in the EC2 Monitoring tab to make sure the instance was running correctly.
