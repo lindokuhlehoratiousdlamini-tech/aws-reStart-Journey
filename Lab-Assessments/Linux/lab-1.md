@@ -11,38 +11,7 @@ After completing this lab, you will be able to:
 - Examine man page headers
 # 📝Task 1: Use SSH to connect to an Amazon Linux EC2 instance
 In this task, you will connect to a Amazon Linux EC2 instance. You will use an SSH utility to perform all of these operations.
-# 🔑 Accessing the AWS Console
-- Click Start Lab → wait for Lab status: ready.
-- Click AWS to open the console (auto-login).
-- Arrange your screen so the lab instructions and console are side by side.
 
-# 📝 Connect to the EC2 Instance (SSH)
-**Windows Users**
-- Download labsuser.ppk from the Details panel.
-- Note the Public IP.
-- Use PuTTY → configure SSH following AWS instructions.
-**Connect as:**
-ec2-user@<public-ip>
-
-**macOS / Linux Users**
-Download labsuser.pem.
-
-**In terminal:**
-
-**Open a terminal window, and change directory cd to the directory where the labsuser.pem file was downloaded. For example, if the labuser.pem file was saved to your Downloads directory, run this command:**
-
-cd ~/Downloads
-
-**Change the permissions on the key to be read-only, by running this command:**
-
-chmod 400 labsuser.pem
-
-**Run the below command (replace <public-ip> with the PublicIP address you copied earlier).
-Alternatively, return to the EC2 Console and select Instances. Check the box next to the instance you want to connect to and in the Description tab copy the IPv4 Public IP value.:**
-
-ssh -i labsuser.pem ec2-user@<public-ip>
-
-**Type yes on first connection.**
 # 📝 Task 2: Explore the man Pages
 In this exercise, you use a bash terminal to view the Linux standard help system. This system is generally referred to as the manual pages (or man pages).
 
