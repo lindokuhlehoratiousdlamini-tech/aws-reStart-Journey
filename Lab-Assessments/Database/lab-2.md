@@ -32,4 +32,5 @@ I queried the table for **Psy – Gangnam Style** to quickly retrieve the item, 
 # Task 5: Delete the table
 
 I opened the **Music** table’s settings, chose **Delete table**, typed *delete* to confirm, and removed the table.
+
  Congratulations you have sucessfully finished your lab!!🎉
