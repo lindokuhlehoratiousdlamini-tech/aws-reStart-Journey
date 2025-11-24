@@ -63,5 +63,5 @@ man man
 <img width="1366" height="728" alt="Screenshot 2025-11-24 110653" src="https://github.com/user-attachments/assets/f88283de-b01a-42cc-a640-9c0527c81e84" />
 *Figure: The DESCRIPTION header provides an overview of a command.*
 
-# Congratulations you have succesfully completed your lab!! 🎉✨
+# Congratulations you have succesfully completed your lab!! 🎉
 
