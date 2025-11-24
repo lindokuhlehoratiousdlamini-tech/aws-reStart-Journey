@@ -46,7 +46,7 @@ In this task, you use the yum package manager to update and upgrade the machine,
 - To validate that you are in the companyA home folder, enter *pwd* and press Enter.
 - If you are not in this folder, enter *cd companyA* and press Enter.
 - If you are not in this folder, enter *cd companyA* and press Enter.
-- To apply security-related updates, enter *sudo yum update --security* and press Enter.
+- To apply security-related enter *sudo yum update --security* and press Enter.
 - To update packages, enter *sudo yum -y upgrade* and press Enter.
 <img width="1366" height="728" alt="lab-2 (1)" src="https://github.com/user-attachments/assets/11fa931a-25a7-470b-a0fc-b9326bb08d18" />
 
@@ -58,7 +58,7 @@ Next step:
 
  *Figure: This command installs httpd and will also show a list of all previous updates and current packages on the instance.*
 
-# Task 3: Roll back a package
+# 📖Task 3: Roll back a package
 In this task, you downgrade a package that has been updated through the yum package manager by doing the following:
 - Using the yum history to list what has been installed and updated
 - Rolling back to the most recent updates in the history list
@@ -76,7 +76,7 @@ Next step:
 
 *Figure: Once the sudo yum -y history undo 2 command is ran, it now shows many packages as dep-install.*
 
-# Task 4: Install the AWS CLI on Red Hat Linux
+# 📖Task 4: Install the AWS CLI on Red Hat Linux
 - To verify that Python is installed, enter the following command and press Enter: *python3 --version*
 - To see if the pip package manager is already installed, enter the following command and press Enter: **pip3 --version**
 - Run this command and press enter: curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -88,7 +88,7 @@ Next step:
 
 Enter q to exit.
 
-# Task 5: Configure the AWS CLI to connect to your AWS account
+# 📖Task 5: Configure the AWS CLI to connect to your AWS account
 
 -Run the *aws configure* and press ENTER
 
@@ -110,9 +110,10 @@ aws_session_token=<your session token>
 
 <img width="1366" height="728" alt="lab-2 (7)" src="https://github.com/user-attachments/assets/903f1525-4142-4f7e-8044-9074f654507d" />
 
-# Task 5: Configure the AWS CLI to connect to your AWS account
 - In the manangment Console search *EC2* and choose EC2. In the Resources section, choose Instances (running). There is one instance called *Command Host.* Copy and paste the Instance ID for the Command Host into a text editor to use in the following step.
 <img width="1366" height="728" alt="lab-2 (8)" src="https://github.com/user-attachments/assets/1d5af345-f0d5-4662-b981-ae7972adde72" />
+
 - Run the following command: aws ec2 describe-instance-attribute --instance-id i-1234567890abcdefg --attribute instanceType
 
+Congratulations you have successfully completed your lab!!🎉
   
