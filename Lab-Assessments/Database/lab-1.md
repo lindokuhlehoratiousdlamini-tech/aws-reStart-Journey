@@ -76,4 +76,4 @@ Return to the Session Manager browser tab that was used to connect to the Comman
 - run the command SELECT * FROM country WHERE GNP > 35000 and Population > 10000000;
 <img width="1366" height="728" alt="lab-1 (6)" src="https://github.com/user-attachments/assets/1a045ee7-dc27-4158-a5c6-0ff39b032291" />
 
-Congratulations you 
+Congratulations you have succcesfully finished this lab!!🎉
