@@ -6,42 +6,7 @@
 - Roll back or downgrade a previously updated package through the package manager
 - Install the AWS Command Line Interface (AWS CLI)
   
-# 📝Task 1: Use SSH to connect to an Amazon Linux EC2 instance
-In this task, you will connect to a Amazon Linux EC2 instance. You will use an SSH utility to perform all of these operations.
-# 🔑 Accessing the AWS Console
-- Click Start Lab → wait for Lab status: ready.
-- Click AWS to open the console (auto-login).
-- Arrange your screen so the lab instructions and console are side by side.
-
-# 📝 Connect to the EC2 Instance (SSH)
-**Windows Users**
-- Download labsuser.ppk from the Details panel.
-- Note the Public IP.
-- Use PuTTY → configure SSH following AWS instructions.
-**Connect as:**
-ec2-user@<public-ip>
-
-**macOS / Linux Users**
-Download labsuser.pem.
-
-**In terminal:**
-
-**Open a terminal window, and change directory cd to the directory where the labsuser.pem file was downloaded. For example, if the labuser.pem file was saved to your Downloads directory, run this command:**
-
-cd ~/Downloads
-
-**Change the permissions on the key to be read-only, by running this command:**
-
-chmod 400 labsuser.pem
-
-**Run the below command (replace <public-ip> with the PublicIP address you copied earlier).
-Alternatively, return to the EC2 Console and select Instances. Check the box next to the instance you want to connect to and in the Description tab copy the IPv4 Public IP value.:**
-
-ssh -i labsuser.pem ec2-user@<public-ip>
-
-**Type yes on first connection.**
-
-## 📖Task 2: Update your Linux machine
+## 📖Update your Linux machine
 In this task, you use the yum package manager to update and upgrade the machine, including relevant security packages.
 - To validate that you are in the companyA home folder, enter *pwd* and press Enter.
 - If you are not in this folder, enter *cd companyA* and press Enter.
@@ -58,7 +23,7 @@ Next step:
 
  *Figure: This command installs httpd and will also show a list of all previous updates and current packages on the instance.*
 
-# 📖Task 3: Roll back a package
+# 📖Roll back a package
 In this task, you downgrade a package that has been updated through the yum package manager by doing the following:
 - Using the yum history to list what has been installed and updated
 - Rolling back to the most recent updates in the history list
@@ -76,7 +41,7 @@ Next step:
 
 *Figure: Once the sudo yum -y history undo 2 command is ran, it now shows many packages as dep-install.*
 
-# 📖Task 4: Install the AWS CLI on Red Hat Linux
+# 📖Install the AWS CLI on Red Hat Linux
 - To verify that Python is installed, enter the following command and press Enter: *python3 --version*
 - To see if the pip package manager is already installed, enter the following command and press Enter: **pip3 --version**
 - Run this command and press enter: curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
@@ -90,7 +55,7 @@ Run the command aws help and press Enter
 
 Enter q to exit.
 
-# 📖Task 5: Configure the AWS CLI to connect to your AWS account
+# 📖Configure the AWS CLI to connect to your AWS account
 
 Run the *aws configure* and press ENTER
 
