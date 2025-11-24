@@ -82,15 +82,17 @@ Next step:
 - Run this command and press enter: curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
 - unzip awscliv2.zip
 <img width="1366" height="728" alt="lab-2 (5)" src="https://github.com/user-attachments/assets/6e45000c-bc78-4a6a-ba14-167a015e7bb8" />
- - Run the following command: *sudo ./aws/install*
- - aws help &
+
+Run the following command: *sudo ./aws/install*
+   
+Run the command aws help and press Enter
  <img width="1366" height="728" alt="lab-2 (6)" src="https://github.com/user-attachments/assets/ea527dfc-f013-4849-b010-e5632110c057" />
 
 Enter q to exit.
 
 # 📖Task 5: Configure the AWS CLI to connect to your AWS account
 
--Run the *aws configure* and press ENTER
+Run the *aws configure* and press ENTER
 
 **At the prompts, enter the following information:**
 1. For the AWS Access Key ID, leave blank and press Enter.
@@ -100,7 +102,7 @@ Enter q to exit.
 - enter the command *sudo nano ~/.aws/credentials*
 - Paste the following on nano command
 
-  [default]
+[default]
   
 aws_access_key_id=<your access key ID>
 
@@ -113,7 +115,7 @@ aws_session_token=<your session token>
 - In the manangment Console search *EC2* and choose EC2. In the Resources section, choose Instances (running). There is one instance called *Command Host.* Copy and paste the Instance ID for the Command Host into a text editor to use in the following step.
 <img width="1366" height="728" alt="lab-2 (8)" src="https://github.com/user-attachments/assets/1d5af345-f0d5-4662-b981-ae7972adde72" />
 
-- Run the following command: aws ec2 describe-instance-attribute --instance-id i-1234567890abcdefg --attribute instanceType
+Run the following command: aws ec2 describe-instance-attribute --instance-id i-1234567890abcdefg --attribute instanceType
 
 Congratulations you have successfully completed your lab!!🎉
   
