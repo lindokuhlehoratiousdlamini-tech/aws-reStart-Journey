@@ -9,10 +9,8 @@ After completing this lab, you will be able to:
 - Understand the purpose of the man command
 - Demonstrate the search feature of the man pages
 - Examine man page headers
-# 📝Task 1: Use SSH to connect to an Amazon Linux EC2 instance
-In this task, you will connect to a Amazon Linux EC2 instance. You will use an SSH utility to perform all of these operations.
-
-# 📝 Task 2: Explore the man Pages
+  
+# 📝 Explore the man Pages
 In this exercise, you use a bash terminal to view the Linux standard help system. This system is generally referred to as the manual pages (or man pages).
 
 In the SSH terminal, run:
