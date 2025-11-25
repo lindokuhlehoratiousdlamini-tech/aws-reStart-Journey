@@ -167,6 +167,6 @@ Successful ping:
 
 *Run ping to test connectivity. The above results are saying you have replies from google.com and have 0% packet loss.*
    
-   
+Congratulations you`ve succesfully completed your labs!!🎉
 
    
