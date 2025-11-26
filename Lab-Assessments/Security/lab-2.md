@@ -35,15 +35,22 @@ You will use this copied ARN later in the lab.
 
 ## Task 2: Configure the File Server instance
 I open EC2 from the console, select the File Server instance, and connect to it using the Session Manager tab.
+<img width="1116" height="218" alt="lab-2 (5)" src="https://github.com/user-attachments/assets/1c7c98ab-ada7-406e-9d49-ff455fd9d96f" />
+
+<img width="1327" height="476" alt="lab-2 (6)" src="https://github.com/user-attachments/assets/e7f40917-1331-43d7-a064-e252c8e1c4b1" />
 
 To change to the home directory and create the AWS credentials file, run the following commands:
 cd ~
 aws configure
 
 When prompted, configure the following:
+- AWS Access Key ID: Enter 1, and then press Enter.
+- AWS Secret Access Key: Enter 1, and then press Enter.
+- Default region name: Copy and paste the Region provided from the Vocareum AWS Details page.
+- Tip You may need to press Ctrl+Shift+V to paste into Session Manager.
+- Default output format: Press Enter.
 
-AWS Access Key ID: Enter 1, and then press Enter.
-AWS Secret Access Key: Enter 1, and then press Enter.
-Default region name: Copy and paste the Region provided from the Vocareum AWS Details page.
-Tip You may need to press Ctrl+Shift+V to paste into Session Manager.
-Default output format: Press Enter.
+I open Vocareum’s AWS Details, show the AWS CLI section, copy the code block into a text editor, and return to the File Server browser tab.
+
+To open the AWS credentials file, run the following command: vi ~/.aws/credentials
+
