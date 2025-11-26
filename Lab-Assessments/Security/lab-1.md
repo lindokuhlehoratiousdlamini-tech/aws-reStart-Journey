@@ -2,7 +2,7 @@
 ## Lab overview
 Logging records system events so you can see detailed activity, while monitoring analyzes that data to track performance and detect issues. In this lab, I create a CloudWatch alarm that triggers when an EC2 instance’s CPU goes above a set level, and I set up an SNS subscription to email me when the alarm activates. I then run a stress test on the instance to push its CPU usage to 100%.
 ## Challanges
-The only challange I encounted was creating a tag for a Restore volume. The tag was succesfully created but it couldn`t be dispalyed and the next step wanted me to implicate an Action to attach a volume. I created 3 tags and still couln`t show even though i reloaded. I went to Instances to check if are they running, when i came back i saw the Restore volume and was able to properly configure the required step.
+The only challange I encounted was creating a tag for a Restore volume. The tag was succesfully created but it could not be dispalyed and the next step wanted me to implicate an Action to attach a volume. I created 3 tags and still couln`t show even though i reloaded. I went to Instances to check if are they running, when i came back i saw the Restore volume and was able to properly configure the required step.
 ## Objectives
 After completing this lab, you should be able to:
   
