@@ -54,3 +54,23 @@ I open Vocareum’s AWS Details, show the AWS CLI section, copy the code block i
 
 To open the AWS credentials file, run the following command: vi ~/.aws/credentials
 
+n the ~/.aws/credentials file, type dd multiple times to delete the contents of the file.
+
+Paste in the code block that you copied from Vocareum.
+
+The AWS credentials file should now look similar to the following:
+
+Example of AWS credentials file contents.
+
+The AWS credentials file includes the following: aws_access_key_id, aws_secret_access_key, and aws_session_token. The credentials used are from the AWS Details section.
+
+To save and close the file, press Escape, type :wq and then press Enter.
+
+To view the updated contents of the file, run the following command: cat ~/.aws/credentials
+
+To install the AWS Encryption CLI and set your path, run the following commands:
+________________________
+- pip3 install aws-encryption-sdk-cli
+- export PATH=$PATH:/home/ssm-user/.local/bin
+________________________________
+
