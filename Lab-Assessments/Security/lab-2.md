@@ -52,9 +52,9 @@ When prompted, configure the following:
 
 I open Vocareum’s AWS Details, show the AWS CLI section, copy the code block into a text editor, and return to the File Server browser tab.
 
-To open the AWS credentials file, run the following command: vi ~/.aws/credentials
+To open the AWS credentials file, run the following command: nano ~/.aws/credentials
 
-n the ~/.aws/credentials file, type dd multiple times to delete the contents of the file.
+In the ~/.aws/credentials file, type dd multiple times to delete the contents of the file.
 
 Paste in the code block that you copied from Vocareum.
 
@@ -63,6 +63,7 @@ The AWS credentials file should now look similar to the following:
 Example of AWS credentials file contents.
 
 The AWS credentials file includes the following: aws_access_key_id, aws_secret_access_key, and aws_session_token. The credentials used are from the AWS Details section.
+<img width="1366" height="728" alt="lab-2 (7)" src="https://github.com/user-attachments/assets/3a972fe9-0062-4007-b405-ff9d69705f38" />
 
 To save and close the file, press Escape, type :wq and then press Enter.
 
@@ -70,7 +71,70 @@ To view the updated contents of the file, run the following command: cat ~/.aws/
 
 To install the AWS Encryption CLI and set your path, run the following commands:
 ________________________
-- pip3 install aws-encryption-sdk-cli
+ pip3 install aws-encryption-sdk-cli
+_____________________________________
+<img width="1366" height="728" alt="lab-2 (8)" src="https://github.com/user-attachments/assets/d36229ce-b2e6-47c9-ba3c-56dd359fa0ea" />
+
+press clear
+
+______________________________________
 - export PATH=$PATH:/home/ssm-user/.local/bin
 ________________________________
+<img width="1366" height="728" alt="lab-2 (9)" src="https://github.com/user-attachments/assets/9d0f8632-e512-486e-b71d-c7cae08853f3" />
 
+## Task 3: Encrypt and decrypt data
+
+To create the text file, run the following commands:
+___________________________________________
+touch secret1.txt secret2.txt secret3.txt
+echo 'TOP SECRET 1!!!' > secret1.txt
+___________________________________________
+- To view the contents of the secret1.txt file, run the following command: cat secret1.txt
+- To create a directory to output the encrypted file, run the following command: mkdir output
+- Copy and paste the following command to a text editor: keyArn=(KMS ARN)
+- To encrypt the secret1.txt file, run the following command:
+_____________________________________________________________________
+aws-encryption-cli --encrypt \
+                     --input secret1.txt \
+                     --wrapping-keys key=$keyArn \
+                     --metadata-output ~/metadata \
+                     --encryption-context purpose=test \
+                     --commitment-policy require-encrypt-require-decrypt \
+                     --output ~/output/.
+_________________________________________________________________________
+
+- echo $?
+If the command succeeded, the value of $? is 0. If the command failed, the value is nonzero.
+<img width="1366" height="728" alt="lab-2 (10)" src="https://github.com/user-attachments/assets/0eaf83c6-1122-432e-bff8-6f9427ba5258" />
+
+To view the newly encrypted file location, run the following command:
+
+- ls output
+
+To view the contents of the newly encrypted file, run the following command:
+
+______________________________________
+cd output
+cat secret1.txt.encrypted
+_______________________________________
+
+Next, you will decrypt the secret1.txt.encrypted file.
+
+To decrypt the file, run the following commands:
+
+___________________________________________________________________________________
+aws-encryption-cli --decrypt \
+                     --input secret1.txt.encrypted \
+                     --wrapping-keys key=$keyArn \
+                     --commitment-policy require-encrypt-require-decrypt \
+                     --encryption-context purpose=test \
+                     --metadata-output ~/metadata \
+                     --max-encrypted-data-keys 1 \
+                     --buffer \
+                     --output .
+___________________________________________________________________________________
+
+<img width="1366" height="728" alt="lab-2 (11)" src="https://github.com/user-attachments/assets/0d442dc6-bb7b-42fb-b820-f72403d66408" />
+
+To view the new file location, run the following command:
+- ls
