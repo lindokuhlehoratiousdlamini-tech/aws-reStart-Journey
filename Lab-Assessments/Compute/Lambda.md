@@ -162,12 +162,18 @@ Then I return to my salesAnalysisReportDataExtractor Lambda function in the Lamb
 - I replace the JSON in the Event JSON pane with the new JSON object I need for testing.
 - I ran the following code for testing
   
-` {
+ {
+
   "dbUrl": "<value of /cafe/dbUrl parameter>",
+  
   "dbName": "<value of /cafe/dbName parameter>",
+  
   "dbUser": "<value of /cafe/dbUser parameter>",
+  
   "dbPassword": "<value of /cafe/dbPassword parameter>"
-}`
+  
+}
+   
     Task 3.3: Analyzing and correcting the Lambda function
 
 Then i will save and test. After some time the page showed a "Execution result: failed" error i did not give in to much worry to it , i simply went to the Configuration tab and choose VPC to check the Inbound rules of the EC2 security group to see if port 3306 is allowed. If not, I add a rule to allow it. After fixing the security group, I return to the salesAnalysisReportDataExtractor Lambda function, go to the Test tab, and run the test again. If everything is correct, I see a green message: “Execution result: succeeded (logs)”, which means the function ran successfully.
