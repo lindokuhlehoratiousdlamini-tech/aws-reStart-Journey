@@ -30,9 +30,11 @@ After completing this lab, I will be able to do the following:
 - Use CloudWatch logs to troubleshoot any issues running a Lambda function.
 
  # Challanges 
-This was so far my most biggest and head throbbing lab i had to do out of all my labd. My issue was the testing and save. I got an "Execution result: failed" erro which was far by right according to the lab. But i had to fix it in which that is when everything became so sour for me and everything became soo messy. I made a lot of Inbound rules through the required lab for 3306 but still nothing happened when i tested it over and over again. i simply went to the Configuration tab and choose VPC to check the Inbound rules of the EC2 security group to see if port 3306 is allowed. If not, I add a rule to allow it. After fixing the security group, I return to the salesAnalysisReportDataExtractor Lambda function, go to the Test tab, and 
-run the test again. If everything is correct, I see a green message: “Execution result: succeeded (logs)”, which means the function ran successfully.
+This was by far the biggest and most head-throbbing lab I’ve had to do out of all my labs. My main issue was with testing and saving. At first, I kept getting an “Execution result: failed” error, which, according to the lab, shouldn’t have happened. I had to fix it, and that’s when everything started to feel really messy and frustrating.
 
+I had created multiple Inbound rules for port 3306 as required by the lab, but the tests still kept failing. Finally, I went to the Configuration tab, chose VPC, and checked the Inbound rules of the EC2 security group to ensure that port 3306 was allowed. When I added the missing rule, I returned to the salesAnalysisReportDataExtractor Lambda function, went to the Test tab, and ran the test again.
+
+This time, everything worked, and I saw the green message: “Execution result: succeeded (logs)”, which meant the function ran successfully.
 # Task 1: Observing the IAM role settings
      Task 1.1: Observing the salesAnalysisReport IAM role settings
 I go to IAM in the AWS Console and open the role called salesAnalysisReportRole.
@@ -166,5 +168,115 @@ Then I return to my salesAnalysisReportDataExtractor Lambda function in the Lamb
   "dbUser": "<value of /cafe/dbUser parameter>",
   "dbPassword": "<value of /cafe/dbPassword parameter>"
 }`
+    Task 3.3: Analyzing and correcting the Lambda function
 
 Then i will save and test. After some time the page showed a "Execution result: failed" error i did not give in to much worry to it , i simply went to the Configuration tab and choose VPC to check the Inbound rules of the EC2 security group to see if port 3306 is allowed. If not, I add a rule to allow it. After fixing the security group, I return to the salesAnalysisReportDataExtractor Lambda function, go to the Test tab, and run the test again. If everything is correct, I see a green message: “Execution result: succeeded (logs)”, which means the function ran successfully.
+
+         Task 3.4: Placing an order and testing again
+To open the café website, I first find the public IP address of the café EC2 instance. There are two ways to do this:
+
+**Option 1:**
+- I go to EC2 in the AWS Console, select CafeInstance, and copy the Public IPv4 address.
+
+- In a new browser tab, I enter http://publicIP/cafe, replacing publicIP with the address I copied, and press Enter to load the website.
+
+**Option 2:**
+- I click Details at the top of the instructions, then Show, and copy CafePublicIP.
+- I open a new browser tab, enter http://publicIP/cafe with the copied IP, and press Enter.
+- On the café website, I go to Menu and place some orders to add data to the database.
+- After populating the database, I return to the salesAnalysisReportDataExtractor Lambda function, go to the Test tab, and run Test again.
+
+Any option work, however i choose Option 2
+
+# Task 4: Configuring notifications
+   Task 4.1: Creating an SNS topic
+
+I go to Simple Notification Service (SNS) in the AWS Console and choose Topics, then Create topic.
+
+I select Standard for the type.
+
+I enter salesAnalysisReportTopic as the name.
+
+I enter SARTopic as the display name.
+
+I choose Create topic.
+
+Finally, I copy the ARN of the topic into a text editor for later use.
+<img width="1366" height="432" alt="lab-2 (19)" src="https://github.com/user-attachments/assets/d2fd0514-2872-4ba9-a154-6b974f634e47" />
+    Task 4.2: Subscribing to the SNS topic
+
+I choose Create subscription in SNS and set the following:
+
+Protocol: Email
+
+Endpoint: My email address
+
+I choose Create subscription. The subscription shows as Pending confirmation.
+
+I check my email inbox and find a message from SARTopic with the subject "AWS Notification - Subscription Confirmation."
+
+I open the email and click Confirm subscription. A new browser tab opens showing "Subscription confirmed!"
+<img width="913" height="377" alt="lab-2 (21)" src="https://github.com/user-attachments/assets/e0ea3334-45a1-4438-983f-b6c56d02194b" /> <img width="780" height="288" alt="lab-2 (22)" src="https://github.com/user-attachments/assets/6b6918c3-58c2-4422-80b0-158c7a082c99" /> <img width="791" height="264" alt="lab-2 (23)" src="https://github.com/user-attachments/assets/2c3c1007-c9c5-4404-874a-9fee6b30224c" />
+
+# Task 5: Creating the salesAnalysisReport Lambda function
+
+Here’s a concise, step-by-step summary of all the tasks you described, in **simple English and first person**:
+
+---
+
+### **AWS Lambda Sales Analysis Report Lab – Summary**
+
+1. **Connect to the CLI Host EC2 instance**
+
+   * I select the CLI Host instance and use **EC2 Instance Connect**.
+
+2. **Configure the AWS CLI**
+-  I run `aws configure` and enter:
+- **AWS Access Key ID** and **Secret Access Key** from the Credentials window.
+- **Region:** `us-west-2`
+- **Output format:** `json`
+
+3. **Create the salesAnalysisReport Lambda function via CLI**
+- I verify that the `salesAnalysisReport-v2.zip` file is on the CLI host.
+- I retrieve the **ARN** of the `salesAnalysisReportRole`.
+- I run `aws lambda create-function` with the zip file, Python 3.9 runtime, handler, region, and role ARN.
+
+4. **Configure the salesAnalysisReport Lambda function**
+- I open the function in the Lambda console.
+- I add an **environment variable**:
+- **Key:** `topicARN`
+- **Value:** ARN of the `salesAnalysisReportTopic` SNS topic
+
+5. **Test the salesAnalysisReport Lambda function**
+- I create a **test event** named `SARTestEvent` using the hello-world template.
+- I run **Test** and verify the green message: `Execution result: succeeded (logs)`.
+- If needed, I adjust the **timeout** in Configuration → General configuration.
+- I check my **email inbox** for the report.
+
+6. **Add a trigger for scheduled execution**
+
+I choose **Add trigger → EventBridge (CloudWatch Events)**.
+   
+I create a new rule:
+
+- **Rule name:** `salesAnalysisReportDailyTrigger`
+- **Description:** Initiates report generation daily
+- **Schedule expression:** Cron expression for Monday–Saturday at the desired UTC time (e.g., `cron(35 11 ? * MON-SAT *)` for 11:35 UTC).
+- I add the trigger and verify that the function runs at the scheduled time.
+
+7. **Check results**
+- I confirm that I receive the **daily sales analysis report** by email.
+- I can place more orders on the café website to see updates in the report.
+<img width="693" height="380" alt="lab-2 (24)" src="https://github.com/user-attachments/assets/cd639412-9e8f-4d6f-8011-06553e4d959b" />
+<img width="412" height="54" alt="lab-2 (25)" src="https://github.com/user-attachments/assets/ff571aa8-04b6-481a-bf4f-0369a709ad1b" />
+<img width="1360" height="406" alt="lab-2 (26)" src="https://github.com/user-attachments/assets/c1b49ea7-bff4-487a-95d2-4c1b75d4c8bc" />
+<img width="1366" height="728" alt="Screenshot 2025-12-03 135234" src="https://github.com/user-attachments/assets/8e2b9adc-cff2-42e8-b7ff-a6512eb2eeb8" />
+
+
+# **Take aways**
+
+* Learned which **IAM policies** a Lambda function needs to access other AWS resources.
+* Created a **Lambda layer** for external library dependencies.
+* Built **Lambda functions** to extract data and send reports.
+* Scheduled a Lambda function to run automatically using **CloudWatch Events**.
+* Used **CloudWatch logs** to troubleshoot and confirm successful execution.
