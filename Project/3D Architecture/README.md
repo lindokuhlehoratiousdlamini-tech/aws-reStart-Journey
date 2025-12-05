@@ -1,6 +1,6 @@
 ## Design a 3D Architecture on AWS 
 
-# 🚀 Project Summary  
+# Project Summary  
 
 I am part of a startup team building a next-generation 3D e-commerce web application that will transform how customers shop online. Our platform allows users to interact with 3D models of products such as furniture, gadgets, and fashion items before making a purchase. With millions of users expected globally, my responsibility as a Cloud Practitioner is to design a cloud architecture on AWS that ensures the platform is fast, highly available, secure, and cost-efficient.  
 
@@ -61,7 +61,7 @@ Here's a breakdown of the flow:
 5. Data & secrets management – Secrets Manager secures database credentials. PostgreSQL and DynamoDB store application data.
 
 6. Monitoring & cost – CloudWatch monitors the environment, while Cost Explorer tracks spending.
-# 🌟Takeaways  
+# Takeaways  
 
 - I learned that **user experience must come first**—fast, smooth 3D interactions are critical for customer satisfaction.  
 - I realized the importance of **high availability**, and how redundancy, load balancing, and failover mechanisms keep the platform reliable 24/7.  
