@@ -53,3 +53,14 @@ Working with interactive elements like booking forms, order submissions, and con
 I also understood the importance of properly organizing assets such as images and HTML files in folders to keep everything structured. This made the website load faster and easier to maintain. Now I see how small technical decisions like compressing images or simplifying layouts contribute to overall performance.
 
 In conclusion, this project helped me grow in both design thinking and technical execution. It gave me practical skills in using AWS, developing real-world web content, and thinking from the user’s perspective. I now feel more prepared and motivated to take on more advanced projects in the future.
+# Team Members & Roles 
+Lindokuhle.D -Research & Documentation
+
+Ndzalo.M - Web Development & Functionality 
+
+Chriswell.M - Deploying the website to S3
+
+Thato.M - Research & Presentation
+
+Palesa.N - Presentation 
+
