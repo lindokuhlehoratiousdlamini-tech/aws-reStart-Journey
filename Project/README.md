@@ -2,7 +2,7 @@
 
 Welcome to my project gallery. This repository contains three projects showcasing my skills in cloud computing and web development using Amazon Web Services. It currently features a lot of group projects from the AWS re/Start program. 
 
-# Project 1: Static Website
+## Project 1: Static Website
 
 ## Nastro Bliss – AWS Static Website & Cloud Migration Project
 
@@ -46,7 +46,7 @@ Thato.M - Research & Presentation
 
 Palesa.N - Presentation
 
-# Project 2: 3D Architecture
+## Project 2: 3D Architecture
 ## 3D E-Commerce Platform on AWS
 
 ## Overview
