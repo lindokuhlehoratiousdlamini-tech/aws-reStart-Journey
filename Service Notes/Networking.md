@@ -28,39 +28,29 @@ Key AWS Networking Services Summary
 # 🧠 What I Learned From AWS Networking Labs
 
 ✔ How to create and configure a VPC
-Choose CIDR block
+- Choose CIDR block
+- Add subnets
+- Attach an Internet Gateway
+- Modify route tables
 
-Add subnets
+✔ Difference between public and private subnets
+- Public = reachable from the internet
+- Private = isolated from the internet
 
-Attach an Internet Gateway
+✔ How resources communicate
+- Routing rules
+- Security Groups (instance level)
+- NACLs (subnet level)
 
-Modify route tables
+✔ How to secure a network
+- Restrict inbound access
+- Use NAT for secure outbound traffic
+- Control traffic using firewall rules
 
- Difference between public and private subnets
-Public = reachable from the internet
-
-Private = isolated from the internet
-
- How resources communicate
-Routing rules
-
-Security Groups (instance level)
-
-NACLs (subnet level)
-
-How to secure a network
-Restrict inbound access
-
-Use NAT for secure outbound traffic
-
-Control traffic using firewall rules
-
- How AWS DNS (Route 53) works
-Domain registration
-
-Health checks
-
-Routing policies (weighted, latency, failover)
+✔ How AWS DNS (Route 53) works
+- Domain registration
+- Health checks
+- Routing policies (weighted, latency, failover)
 
 # 📝 My Takeaways from AWS Networking Labs
 - I learned how AWS uses VPCs to create isolated virtual networks where I can launch and secure my cloud resources.
