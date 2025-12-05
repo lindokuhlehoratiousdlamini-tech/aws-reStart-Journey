@@ -1,6 +1,6 @@
-## Design a 3D Architecture on AWS 
+# Design a 3D Architecture on AWS 
 
-# Project Summary  
+## Project Summary  
 
 I am part of a startup team building a next-generation 3D e-commerce web application that will transform how customers shop online. Our platform allows users to interact with 3D models of products such as furniture, gadgets, and fashion items before making a purchase. With millions of users expected globally, my responsibility as a Cloud Practitioner is to design a cloud architecture on AWS that ensures the platform is fast, highly available, secure, and cost-efficient.  
 
@@ -22,7 +22,7 @@ This architecture meets the critical requirements:
 - **Security** by following AWS best practices, including IAM, encryption, and monitoring.  
 - **Cost Optimization** through managed services, auto-scaling, and proactive monitoring.  
 
-# Project Walkthrough 
+## Project Walkthrough 
 
 ***1. Design the Architecture***
 
@@ -42,7 +42,7 @@ o We wrote a brief document explaining:
 ▪ How your architecture meets each of the 5 requirements. 
 ▪ Any design trade-offs or challenges.
 
-# 3D Architecture Model 
+## 3D Architecture Model 
 
 ![Archictecture](https://github.com/user-attachments/assets/af02eb7a-eb7e-4cc7-8fb9-45fa8275cd13)
 
@@ -61,7 +61,7 @@ Here's a breakdown of the flow:
 5. Data & secrets management – Secrets Manager secures database credentials. PostgreSQL and DynamoDB store application data.
 
 6. Monitoring & cost – CloudWatch monitors the environment, while Cost Explorer tracks spending.
-# Takeaways  
+## Takeaways  
 
 - I learned that **user experience must come first**—fast, smooth 3D interactions are critical for customer satisfaction.  
 - I realized the importance of **high availability**, and how redundancy, load balancing, and failover mechanisms keep the platform reliable 24/7.  
@@ -70,7 +70,7 @@ Here's a breakdown of the flow:
 - I discovered that **cost efficiency is achievable** by using managed services, monitoring tools, and avoiding unnecessary resources.  
 - I appreciated how each AWS service plays a **specific role** in meeting business and technical requirements, from S3 for storage to CloudFront for global delivery.  
 - I recognized that **design trade-offs are inevitable**—balancing performance with cost, or flexibility with simplicity, is part of cloud architecture design.  
-# Team Members & Roles 
+## Team Members & Roles 
 Lindokuhle.D - Reasearch & Documentation 
 
 Chriswell.M - Reasearch & Documentation 
