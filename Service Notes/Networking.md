@@ -36,33 +36,33 @@ Attach an Internet Gateway
 
 Modify route tables
 
-✔ Difference between public and private subnets
+ Difference between public and private subnets
 Public = reachable from the internet
 
 Private = isolated from the internet
 
-✔ How resources communicate
+ How resources communicate
 Routing rules
 
 Security Groups (instance level)
 
 NACLs (subnet level)
 
-✔ How to secure a network
+How to secure a network
 Restrict inbound access
 
 Use NAT for secure outbound traffic
 
 Control traffic using firewall rules
 
-✔ How AWS DNS (Route 53) works
+ How AWS DNS (Route 53) works
 Domain registration
 
 Health checks
 
 Routing policies (weighted, latency, failover)
 
-# My Takeaways from AWS Networking Labs
+# 📝 My Takeaways from AWS Networking Labs
 - I learned how AWS uses VPCs to create isolated virtual networks where I can launch and secure my cloud resources.
 - I now understand the difference between public and private subnets, and when to place resources in each one.
 - I gained hands-on practice attaching an Internet Gateway to allow public traffic and using a NAT Gateway to give private resources safe outbound internet access.
