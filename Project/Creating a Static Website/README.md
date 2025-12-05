@@ -48,8 +48,8 @@ Working on this project taught me a lot, especially as someone still new to web 
 
 Another major learning point for me was deploying the website using Amazon S3. This was my first hands-on experience using a cloud service for hosting, and I gained confidence in uploading and managing website files in the cloud. It was exciting to see the site live and working properly after hosting it on AWS. I also learned how integrating CloudFront helps deliver content faster and securely around the world, which is something businesses rely on for performance.
 
-Working with interactive elements like booking forms, order submissions, and confirmation pages helped me build more than just a static page — it became a real, functioning site. I learned how these features improve user engagement and make the site more useful to visitors.
+Working with interactive elements like booking forms, order submissions, and confirmation pages helped me build more than just a static page it became a real, functioning site. I learned how these features improve user engagement and make the site more useful to visitors.
 
-I also understood the importance of properly organizing assets such as images and HTML files in folders to keep everything structured. This made the website load faster and easier to maintain. Now I see how small technical decisions — like compressing images or simplifying layouts — contribute to overall performance.
+I also understood the importance of properly organizing assets such as images and HTML files in folders to keep everything structured. This made the website load faster and easier to maintain. Now I see how small technical decisions like compressing images or simplifying layouts contribute to overall performance.
 
 In conclusion, this project helped me grow in both design thinking and technical execution. It gave me practical skills in using AWS, developing real-world web content, and thinking from the user’s perspective. I now feel more prepared and motivated to take on more advanced projects in the future.
