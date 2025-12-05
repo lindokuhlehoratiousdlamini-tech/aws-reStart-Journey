@@ -1,11 +1,11 @@
-## Nastro Bliss: Transforming Your Restaurant with AWS
+# Nastro Bliss: Transforming Your Restaurant with AWS
 *A strategic partnership bringing clarity, efficiency, and growth to your digital operations.*
 
-# Restaurant Overview
+## Restaurant Overview
 Before we indulge into understanding the challanges that the resturant faced let us first understand the background of the resturant.
 Nastro Bliss is a beloved restaurant situated at Johannesburg known for contemporary African cuisine and specializing in grill and fire menu items. Catering to local residence, corporate partners and to tourists to showcase their take and expertise in African cuisine.
 
-# Operational Challenges
+## Operational Challenges
 **Booking Confusion** - Reservation requests come through multiple channels like phone, walk-ins, social media. Information gets lost, double-booked tables create frustration.
 
 **Order Mix-ups** - Orders placed verbally or via text lead to incorrect items, forgotten requests, and unhappy customers during peak hours.
@@ -19,7 +19,7 @@ Due to such challanges the business lost about:
 
 This did not put a good statement to the business as a whole.
 
-# The Solution: A Static Website on AWS
+## The Solution: A Static Website on AWS
 
 A fast, good-looking static website hosted on AWS S3 with these features:
 - Gallery of delicious dishes
@@ -29,7 +29,7 @@ A fast, good-looking static website hosted on AWS S3 with these features:
 
 Even though the front-end is static, everything that needs to be dynamic (forms, logins, storing bookings/orders) is handled by serverless AWS services – no servers to manage
 
-# Project Walkthrough
+## Project Walkthrough
 
 We executed the project in two main phases: the development of a Static Website and the creation of an AWS Migration Presentation.
 
@@ -42,7 +42,7 @@ In the end, we successfully deployed the fully functional website using Amazon S
 
 I also created the AWS Migration Presentation, where I documented the migration plan, architecture, and business value of moving the restaurant’s digital experience to AWS. The presentation highlighted the problem, the solution, the services used, and the expected improvements in performance, reliability, and customer satisfaction.
 
-# My Takeaways from the Static Website Project
+## My Takeaways from the Static Website Project
 
 Working on this project taught me a lot, especially as someone still new to web development and cloud computing. One of my biggest takeaways was learning how to design a clean, user-friendly website. I discovered that simplicity doesn't mean basic it means focusing on clear structure, ease of use, and making sure every element has a purpose. This helped me better understand how real users interact with websites, and how important layout and visual clarity are, especially when it comes to things like booking and order forms.
 
@@ -53,7 +53,7 @@ Working with interactive elements like booking forms, order submissions, and con
 I also understood the importance of properly organizing assets such as images and HTML files in folders to keep everything structured. This made the website load faster and easier to maintain. Now I see how small technical decisions like compressing images or simplifying layouts contribute to overall performance.
 
 In conclusion, this project helped me grow in both design thinking and technical execution. It gave me practical skills in using AWS, developing real-world web content, and thinking from the user’s perspective. I now feel more prepared and motivated to take on more advanced projects in the future.
-# Team Members & Roles 
+## Team Members & Roles 
 Lindokuhle.D -Research & Documentation
 
 Ndzalo.M - Web Development & Functionality 
