@@ -1,40 +1,49 @@
 
 ## 🗄 AWS Database Services Notes
 
-# 1. Amazon RDS (Relational Database Service)
-- Managed service for relational databases (e.g. MySQL, PostgreSQL, Oracle, SQL Server).
-- Handles backups, patching, and scaling.
-- Supports Multi-AZ for high availability.
+A database is an organized collection of structured information stored electronically, usually in a computer system.
 
-Use case: Applications that need structured, relational data (e.g. user accounts, transactions).
+# A database allows you to:
 
-# 2. Amazon DynamoDB
-- Fully managed NoSQL database.
-- Fast and scalable with low-latency performance.
-- Stores key-value and document data.
+Store data
 
-Use case: Real-time applications like shopping carts, gaming, and chat apps.
+Retrieve data
 
-# 3. Amazon Aurora
-- High-performance relational database built for the cloud.
-- Compatible with MySQL and PostgreSQL.
-- Faster than standard RDS and auto-scales storage.
+Update data
 
-Use case: Enterprise applications needing high speed and reliability.
+Delete data
 
-# 4. Amazon Redshift
-- Managed data warehouse for big data analytics.
-- Stores and analyzes large amounts of data fast.
-- Works well with BI tools (e.g. QuickSight, Tableau).
+Query information quickly and efficiently
 
-Use case: Generating business reports from huge datasets.
+# Types of Databases
 
-# 5. Amazon ElastiCache
-- In-memory caching service (Redis or Memcached).
-- Reduces database load and speeds up applications.
+Relational Databases (MySQL, PostgreSQL, Oracle)
 
-Use case: Caching frequently accessed data like user sessions or leaderboards.
+Store data in tables (rows + columns)
 
+Use SQL for queries
+
+NoSQL Databases (MongoDB, DynamoDB)
+
+Store data in flexible formats like documents, key-value pairs, or graphs
+
+In this lab, you worked with a relational database using SQL (Structured Query Language).
+
+# 📚 Key SQL Commands Used
+
+Command	Purpose
+
+- SHOW DATABASES;	Lists all databases
+- SELECT	Retrieves data from a table-
+- COUNT()	Counts rows
+- WHERE	Filters data
+- ORDER BY	Sorts data
+- AND	Combines multiple conditions
+- AS	Renames output columns
+
+# ✅ Conclusion
+
+By completing this lab, I developed essential skills in SQL querying and learned how to interact with a MySQL database hosted on AWS. This included selecting data, filtering results, sorting outputs, and analyzing table structures.
 # ✅ My Takeaways
 - AWS offers both relational and non-relational database options.
 - RDS is easy to use and perfect for most web apps.
