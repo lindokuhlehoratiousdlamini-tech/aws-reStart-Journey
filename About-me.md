@@ -22,8 +22,6 @@ My creative background as a novelist sharpens my communication and problem‑str
 - **Version control & collaboration**  
   Git/GitHub workflows, branching, pull requests and basic CI/CD concepts .
 
----
-
 ## What I Plan to Live With After the Programme 🎯
 
 - 📚 Continuous learning as a daily habit: follow labs, build mini-projects, and study for AWS Cloud Practitioner (and next certifications).
@@ -45,4 +43,17 @@ My creative background as a novelist sharpens my communication and problem‑str
 
 ---
 
+## 📘 What I’ve Learned
+- Building and deploying web apps — from simple static sites to full-stack projects.
+- Working with AWS services like EC2, S3, RDS, and IAM to build secure and scalable solutions.
+- Testing and troubleshooting to improve reliability and user experience.
+- Creating clean, user-friendly UI designs that focus on simplicity and accessibility.
+- Using Git & GitHub effectively — branching, committing, pushing, and managing projects.
+- Breaking big problems into smaller tasks, making development faster and more manageable.
+- Understanding how deployments work (hosting, storage, databases, scalability).
+- Applying basic security best practices to protect apps and data.
+- Collaborating in technical environments through documentation, version control, and teamwork.
+- Continuously learning new tools and technologies to grow as a developer.
+
+---
 
