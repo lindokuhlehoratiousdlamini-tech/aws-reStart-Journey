@@ -37,7 +37,7 @@ This architecture meets the critical requirements:
 and many other more
 
 ***2. Explain Your Choices*** 
-o We wrote a brief document explaining: 
+ We wrote a brief document explaining: 
 ▪ Why you chose each AWS service. 
 ▪ How your architecture meets each of the 5 requirements. 
 ▪ Any design trade-offs or challenges.
