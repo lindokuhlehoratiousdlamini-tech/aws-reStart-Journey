@@ -30,4 +30,19 @@ My creative background as a novelist sharpens my communication and problem‑str
 - 🌐 A public portfolio: maintain GitHub repos that show cloud deployments, scripts, and short writeups illustrating problems solved.
 - 🔐 Security-first defaults: designing with least-privilege, backups, monitoring and cost-awareness baked into every project.
 - 💻 Regular
-
+
+---
+
+## 🚧 Challenges I’m Currently Tackling
+- Improving my debugging skills — learning to track down tricky bugs faster and more efficiently.
+- Balancing learning and building — trying to ship real projects while still growing my skills every day.
+- Mastering complex cloud concepts — especially around AWS architecture, scalability, and best practices.
+- Time management — juggling multiple projects, labs, and learning paths at once.
+- Writing cleaner, reusable code — focusing on structure, readability, and best practices.
+- Deploying full-stack projects — understanding everything from frontend to backend to cloud hosting.
+-  Collaborating more effectively — learning Git, pull requests, and working in team environments.
+-  Staying consistent — building habits to code daily and keep improving.
+
+---
+
+
