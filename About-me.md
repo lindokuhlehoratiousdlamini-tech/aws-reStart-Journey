@@ -22,6 +22,8 @@ My creative background as a novelist sharpens my communication and problem‑str
 - **Version control & collaboration**  
   Git/GitHub workflows, branching, pull requests and basic CI/CD concepts .
 
+---
+
 ## What I Plan to Live With After the Programme 🎯
 
 - 📚 Continuous learning as a daily habit: follow labs, build mini-projects, and study for AWS Cloud Practitioner (and next certifications).
