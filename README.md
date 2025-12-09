@@ -63,7 +63,19 @@ I hope to one day:
 ## ✨Badges
 <img width="340" height="340" alt="CloadPracBadge" src="https://github.com/user-attachments/assets/87768483-1e8c-4f0e-8513-2487b6171b10" /> 
 
-## Project Links
+## 📁Project Links
+
+**Project 1: S3 Static Website Hosting**
+
+https://github.com/lindokuhlehoratiousdlamini-tech/aws-reStart-Journey/tree/main/Project/Creating%20a%20Static%20Website
+
+**Project 2: 3D AWS Architecture** 
+
+https://github.com/lindokuhlehoratiousdlamini-tech/aws-reStart-Journey/tree/main/Project/3D%20Architecture
+
+**Project 3:**
+
+*coming soon..*
 ## 📫 Let's Connect
 - *LinkedIn*: https://www.linkedin.com/in/lindoe-precious-6a5036349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 - *Email*: lindokuhlehoratiousdlamini@gmail.com
