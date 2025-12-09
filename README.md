@@ -1,4 +1,46 @@
-# aws-reStart-Journey
+
+
+# Hi there I`m Lindokuhle Dlamini 👋
+I’m passionate about blending technology, teaching, and graphic design to create engaging learning experiences. I love digging into new tools, turning complex ideas into clear visuals, and sharing that knowledge with others. Whether it’s coding interactive tutorials, designing eye catching educational graphics, or mentoring peers, I thrive on making learning both fun and accessible. This drive fuels everything I put on GitHub, from open‑source lesson packs to visually rich project demos.
+
+## 🔧 Currently Working On
+I’m currently diving into projects that fuse technology with creative teaching, like developing interactive graphic tutorials and designing visual learning kits that simplify complex ideas. I’m experimenting with tools such as Figma for design, alongside coding basics in HTML/CSS and JavaScript to build small educational web apps. My focus is on creating open-source resources that fellow students and teachers can freely use and contribute to, while I keep refining my skills in both design and tech.
+
+## 📚 Currently Learning
+- AWS fundamentals
+- Git & GitHub
+- Basic web development (HTML, CSS, JS)
+- Exploring AI concepts through beginner projects
+## 💡 Passionate About
+- Cloud computing
+- Artificial Intelligence
+- Tech for social good
+- Learning and helping others grow in tech
+- Teaching
+## 🤝 Looking to Collaborate On
+- Beginner-friendly open source projects
+- Simple websites or cloud-based apps
+- Tech community events or initiatives
+## 🙋🏽‍♂ Looking to Help With
+- Basic cloud/AWS questions
+- Study tips for beginners
+- Motivation and resources for new tech learners
+## ❓ Ask Me About
+- Getting started in tech with no experience
+- Free learning platforms and resources
+- My journey and tips for beginners
+## ✨Badges
+<img width="340" height="340" alt="CloadPracBadge" src="https://github.com/user-attachments/assets/87768483-1e8c-4f0e-8513-2487b6171b10" />## 📫 Let's Connect
+LinkedIn: https://www.linkedin.com/in/lindoe-precious-6a5036349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+Email: lindokuhlehoratiousdlamini@gmail.com
+
+Instagram: Lindokuhle Dlamini
+
+Facebook: Lindokuhle Dlamini
+
+Let's connect, collaborate, and build something great together!
+
 # AWS re/Start Programme 🚀☁️
 
 Welcome to the AWS re/Start programme — a full-time, classroom-based training and job-readiness programme that prepares people for careers in cloud computing and entry-level cloud roles. This README describes the programme purpose, curriculum, schedule, assessments, outcomes, and how to apply.
