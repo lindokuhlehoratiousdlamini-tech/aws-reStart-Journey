@@ -64,10 +64,10 @@ I hope to one day:
 <img width="340" height="340" alt="CloadPracBadge" src="https://github.com/user-attachments/assets/87768483-1e8c-4f0e-8513-2487b6171b10" /> 
 
 ## 📫 Let's Connect
-- LinkedIn: https://www.linkedin.com/in/lindoe-precious-6a5036349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
-- Email: lindokuhlehoratiousdlamini@gmail.com
-- Instagram: Lindokuhle Dlamini
-- Facebook: Lindokuhle Dlamini
+- *LinkedIn*: https://www.linkedin.com/in/lindoe-precious-6a5036349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+- *Email*: lindokuhlehoratiousdlamini@gmail.com
+- *Instagram*: Lindokuhle Dlamini
+- *Facebook*: Lindokuhle Dlamini
 
 Let's connect, collaborate, and build something great together! 
 
