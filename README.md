@@ -29,17 +29,9 @@ I’m currently diving into projects that fuse technology with creative teaching
 - Getting started in tech with no experience
 - Free learning platforms and resources
 - My journey and tips for beginners
-## ✨Badges
-<img width="340" height="340" alt="CloadPracBadge" src="https://github.com/user-attachments/assets/87768483-1e8c-4f0e-8513-2487b6171b10" />## 📫 Let's Connect
-LinkedIn: https://www.linkedin.com/in/lindoe-precious-6a5036349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+  
+---
 
-Email: lindokuhlehoratiousdlamini@gmail.com
-
-Instagram: Lindokuhle Dlamini
-
-Facebook: Lindokuhle Dlamini
-
-Let's connect, collaborate, and build something great together!
 
 # AWS re/Start Programme 🚀☁️
 
@@ -67,4 +59,18 @@ By the end of the programme, learners will:
 - **About Me**: A section for personal introduction, sharing background, interests or career goals 
 - **Weekly Notes**: Summaries or reflections on the material covered each week, useful for review and study purposes 
 
-Welcome to your cloud journey! 🌍🚀
+## ✨Badges
+<img width="340" height="340" alt="CloadPracBadge" src="https://github.com/user-attachments/assets/87768483-1e8c-4f0e-8513-2487b6171b10" /> 
+
+## 📫 Let's Connect
+LinkedIn: https://www.linkedin.com/in/lindoe-precious-6a5036349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+
+Email: lindokuhlehoratiousdlamini@gmail.com
+
+Instagram: Lindokuhle Dlamini
+
+Facebook: Lindokuhle Dlamini
+
+Let's connect, collaborate, and build something great together!
+
+***Welcome to your cloud journey! 🌍🚀***
