@@ -20,14 +20,6 @@ I’m currently diving into projects that fuse technology with creative teaching
 - Tech for social good
 - Learning and helping others grow in tech
 - Teaching
-## 🤝 Looking to Collaborate On
-- Beginner-friendly open source projects
-- Simple websites or cloud-based apps
-- Tech community events or initiatives
-## 🙋🏽‍♂ Looking to Help With
-- Basic cloud/AWS questions
-- Study tips for beginners
-- Motivation and resources for new tech learners
 
 ---
 
