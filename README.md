@@ -79,8 +79,6 @@ https://github.com/lindokuhlehoratiousdlamini-tech/aws-reStart-Journey/tree/main
 ## 📫 Let's Connect
 - *LinkedIn*: https://www.linkedin.com/in/lindoe-precious-6a5036349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 - *Email*: lindokuhlehoratiousdlamini@gmail.com
-- *Instagram*: Lindokuhle Dlamini
-- *Facebook*: Lindokuhle Dlamini
 
 Let's connect, collaborate, and build something great together! 
 
