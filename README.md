@@ -75,7 +75,8 @@ https://github.com/lindokuhlehoratiousdlamini-tech/aws-reStart-Journey/tree/main
 
 **Project 3:ChatBot**
 
-*coming soon..*
+https://github.com/lindokuhlehoratiousdlamini-tech/aws-reStart-Journey/tree/main/Project/ChatBot
+
 ## 📫 Let's Connect
 - *LinkedIn*: https://www.linkedin.com/in/lindoe-precious-6a5036349?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
 - *Email*: lindokuhlehoratiousdlamini@gmail.com
