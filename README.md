@@ -73,7 +73,7 @@ https://github.com/lindokuhlehoratiousdlamini-tech/aws-reStart-Journey/tree/main
 
 https://github.com/lindokuhlehoratiousdlamini-tech/aws-reStart-Journey/tree/main/Project/3D%20Architecture
 
-**Project 3:ChatBot**
+**Project 3: ChatBot**
 
 https://github.com/lindokuhlehoratiousdlamini-tech/aws-reStart-Journey/tree/main/Project/ChatBot
 
