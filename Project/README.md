@@ -79,4 +79,31 @@ Brite.S - Designing the Architecture
 
 Nayana.M - Designing the Architecture 
 
+## Project 3: Chatbot
+This project is a chatbot developed by our group to provide interactive and intelligent conversations with users. It is designed to be simple, flexible, and easy to expand for different use cases such as customer support, learning assistance, or general conversation.
+## Services Used in Making a Simple Chatbot
+- Programming Language
+- Amazon Lex
+- Lambda
+- S3
 
+# Objective
+
+The objective of this project is to design and develop a simple chatbot that can interact with users through basic text-based conversations. Our goal is to understand the fundamentals of chatbot development, including handling user input, generating appropriate responses, and working collaboratively as a team. This project also aims to improve our programming skills and introduce us to real-world application development using simple tools and technologies.
+
+# Features
+- Provides basic text-based conversation
+- Responds to user input using simple rules or predefined responses
+- Easy to use and understand
+- Simple and clean code structure
+- Easy to test and modify
+- Supports group collaboration through version control
+
+  # Team Members & Roles
+Lindokuhle.D - Reasearch & Documentation
+
+Andrea. - Reasearch & Documentation
+
+Unathi - Reasearch & Documentation
+
+Lethabo - Deployment & Creation of the Chatbot
