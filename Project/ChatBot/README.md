@@ -122,3 +122,12 @@ users.
 - This project helped me improve my problem-solving and debugging skills while developing and testing features.
 - I strengthened my ability to collaborate in a group setting, including sharing ideas, dividing tasks, and integrating code from different team members.
 - I learned the importance of clear documentation and version control when working on a shared GitHub repository.
+
+## Team Members & Roles
+Lindokuhle.D - Reasearch & Documentation
+
+Andrea. - Reasearch & Documentation
+
+Unathi - Reasearch & Documentation
+
+Lethabo - Deployment & Creation of the Chatbot
